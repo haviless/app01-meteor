@@ -1,0 +1,16 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.nodo-img{
+  padding: 10px;
+  width: 100%; /* O el ancho que desees */
+  object-fit: cover;
+  object-position: center;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}

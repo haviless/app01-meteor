@@ -1,0 +1,180 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/Users/haviles/.meteor/packages/mongo/1.16.10/web.browser/local_collection_driver.js",
+        "/Users/haviles/.meteor/packages/mongo/1.16.10/web.browser/collection.js",
+        "/Users/haviles/.meteor/packages/mongo/1.16.10/web.browser/connection_options.js",
+        "/Users/haviles/.meteor/packages/mongo/1.16.10/web.browser/doc_fetcher.js",
+        "/Users/haviles/.meteor/packages/mongo/1.16.10/web.browser/mongo_driver.js",
+        "/Users/haviles/.meteor/packages/mongo/1.16.10/web.browser/mongo_utils.js",
+        "/Users/haviles/.meteor/packages/mongo/1.16.10/web.browser/observe_multiplex.js",
+        "/Users/haviles/.meteor/packages/mongo/1.16.10/web.browser/oplog_observe_driver.js",
+        "/Users/haviles/.meteor/packages/mongo/1.16.10/web.browser/oplog_tailing.js",
+        "/Users/haviles/.meteor/packages/mongo/1.16.10/web.browser/oplog_v2_converter.js",
+        "/Users/haviles/.meteor/packages/mongo/1.16.10/web.browser/polling_observe_driver.js",
+        "/Users/haviles/.meteor/packages/mongo/1.16.10/web.browser/remote_collection_driver.js"
+      ],
+      "meteor/jquery": [
+        "/Users/haviles/.meteor/packages/jquery/3.0.0/web.browser/main.js"
+      ],
+      "meteor/reactive-var": [
+        "/Users/haviles/.meteor/packages/reactive-var/1.0.12/web.browser/reactive-var.js"
+      ],
+      "meteor/tracker": [
+        "/Users/haviles/.meteor/packages/tracker/1.3.3/web.browser/tracker.js"
+      ],
+      "meteor/es5-shim": [
+        "/Users/haviles/.meteor/packages/es5-shim/4.8.0/web.browser/client.js",
+        "/Users/haviles/.meteor/packages/es5-shim/4.8.0/web.browser/console.js",
+        "/Users/haviles/.meteor/packages/es5-shim/4.8.0/web.browser/cordova.js",
+        "/Users/haviles/.meteor/packages/es5-shim/4.8.0/web.browser/export_globals.js",
+        "/Users/haviles/.meteor/packages/es5-shim/4.8.0/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/Users/haviles/.meteor/packages/ecmascript/0.16.8/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/Users/haviles/.meteor/packages/shell-server/0.5.0/web.browser/main.js",
+        "/Users/haviles/.meteor/packages/shell-server/0.5.0/web.browser/shell-server.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/Users/haviles/.meteor/packages/hot-module-replacement/0.5.3/web.browser/hot-api.js",
+        "/Users/haviles/.meteor/packages/hot-module-replacement/0.5.3/web.browser/client.js",
+        "/Users/haviles/.meteor/packages/hot-module-replacement/0.5.3/web.browser/server.js"
+      ],
+      "meteor/blaze-hot": [
+        "/Users/haviles/.meteor/packages/blaze-hot/1.1.2/web.browser/hot.js",
+        "/Users/haviles/.meteor/packages/blaze-hot/1.1.2/web.browser/update-templates.js"
+      ],
+      "meteor/aldeed:simple-schema": [
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/main.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/SimpleSchema.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/SimpleSchemaGroup.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/ValidationContext.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/clean.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/defaultMessages.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/doValidation.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/expandShorthand.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/humanize.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/regExp.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/clean/AutoValueRunner.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/clean/convertToProperType.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/clean/getPositionsForAutoValue.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/clean/setAutoValues.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/utility/appendAffectedKey.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/utility/dateToDateString.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/utility/forEachKeyAncestor.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/utility/getKeysWithValueInObj.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/utility/getLastPartOfKey.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/utility/getParentOfKey.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/utility/index.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/utility/isEmptyObject.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/utility/isObjectWeShouldTraverse.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/utility/looksLikeModifier.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/utility/merge.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/validation/allowedValuesValidator.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/validation/requiredValidator.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/validation/typeValidator/doArrayChecks.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/validation/typeValidator/doDateChecks.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/validation/typeValidator/doNumberChecks.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/validation/typeValidator/doStringChecks.js",
+        "/Users/haviles/.meteor/packages/aldeed_simple-schema/1.13.1/web.browser/lib/validation/typeValidator/index.js"
+      ],
+      "meteor/aldeed:autoform": [
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/utility.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/form-preserve.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/autoform-hooks.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/autoform-formdata.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/autoform-arrays.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/autoform.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/autoform-validation.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/autoform-inputs.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/autoform-api.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/autoform-events.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/autoform-helpers.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/common.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/dynamic.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/static.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/components/afArrayField/afArrayField.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/components/afEachArrayItem/afEachArrayItem.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/components/afFieldInput/afFieldInput.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/components/afFormGroup/afFormGroup.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/components/afObjectField/afObjectField.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/components/afQuickField/afQuickField.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/components/afQuickFields/afQuickFields.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/components/autoForm/autoForm.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/components/quickForm/quickForm.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/components/quickForm/quickFormUtils.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/formTypes/disabled.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/formTypes/insert.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/formTypes/method-update.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/formTypes/method.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/formTypes/normal.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/formTypes/readonly.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/formTypes/update-pushArray.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/formTypes/update.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/value-converters.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/boolean-checkbox/boolean-checkbox.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/boolean-radios/boolean-radios.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/boolean-select/boolean-select.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/button/button.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/color/color.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/contenteditable/contenteditable.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/date/date.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/datetime-local/datetime-local.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/datetime/datetime.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/email/email.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/file/file.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/hidden/hidden.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/image/image.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/month/month.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/number/number.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/password/password.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/radio/radio.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/range/range.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/reset/reset.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/search/search.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/select-checkbox-inline/select-checkbox-inline.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/select-checkbox/select-checkbox.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/select-multiple/select-multiple.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/select-radio-inline/select-radio-inline.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/select-radio/select-radio.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/select/select.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/submit/submit.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/tel/tel.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/text/text.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/textarea/textarea.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/time/time.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/url/url.js",
+        "/Users/haviles/.meteor/packages/aldeed_autoform/7.1.0/web.browser/inputTypes/week/week.js"
+      ],
+      "meteor/aldeed:collection2": [
+        "/Users/haviles/.meteor/packages/aldeed_collection2/4.0.3/web.browser/collection2.js",
+        "/Users/haviles/.meteor/packages/aldeed_collection2/4.0.3/web.browser/dynamic.js",
+        "/Users/haviles/.meteor/packages/aldeed_collection2/4.0.3/web.browser/lib.js",
+        "/Users/haviles/.meteor/packages/aldeed_collection2/4.0.3/web.browser/main.js",
+        "/Users/haviles/.meteor/packages/aldeed_collection2/4.0.3/web.browser/static.js"
+      ],
+      "meteor/session": [
+        "/Users/haviles/.meteor/packages/session/1.2.1/web.browser/session.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}
